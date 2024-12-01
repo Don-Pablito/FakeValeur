@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeValeurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Générateur de valeurs</h1><br>
+    <input type="number" placeholder="Moyenne" id="m_input">
+    <input type="number" placeholder="Écart type" id="s_input">
+    <input type="number" placeholder="Nombre de valeur" id="n_input">
+    <button id="btn">Générer liste</button>
+
+    <br>
+    <p>* Mettre des "." pour les nombres décimaux</p>
+    <p>* le nombres de décimaux qui s'affichent dépendent de ceux mis sur l'écart type (exemple: écart-type de 2,549 -> valeur possible = 0,938 SINON écart-type de 2,5 valeur posisble = 0,9)</p>
+
+    <table id="myTable" border="1">
+        <thead>
+            <tr>
+                <th>Valeurs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Les lignes du tableau seront ajoutées ici -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+    <style>
+        #myTable {
+            display: none; /* Tableau invisible par défaut */
+        }
+    </style>
+
+</body>
+</script>
+</html>

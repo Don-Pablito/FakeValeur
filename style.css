@@ -1,0 +1,68 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EEECE8;
+    color: #675F54;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Titre centré */
+h1 {
+    text-align: center;
+    color: #675F54;
+}
+
+/* Formulaire */
+input, button {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;  /* Espacement entre les éléments */
+    border: 1px solid #CCC6B9;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Assurer que le padding et la bordure ne changent pas la taille de l'élément */
+}
+
+button {
+    background-color: #675F54;
+    color: #EEECE8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #CCC6B9;
+}
+
+/* Texte explicatif */
+p {
+    max-width: 90%;
+    word-wrap: break-word;  /* Assurer que le texte se divise bien pour tenir dans l'écran */
+    text-align: center;
+    color: #675F54;
+}
+
+/* Tableau */
+#myTable {
+    display: none; /* Tableau invisible par défaut */
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#myTable th, #myTable td {
+    padding: 8px;
+    border: 1px solid #CCC6B9;
+}
+
+#myTable th {
+    background-color: #675F54;
+    color: #EEECE8;
+}
